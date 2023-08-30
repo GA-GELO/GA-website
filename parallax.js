@@ -1,9 +1,15 @@
 
+ function smartgovbutton() {
+    window.open ('mysmartgov.html', "_self");
+}
+ 
+function billingsystem() {
+    window.open ('mysmartgov.html', "_self");
+}
 
-
-// function clickHandler() {
-//     alert ("success")
-// }
+function residentInfo() {
+    window.open ('ResidentInformationID.html', "_self");
+}
 
 
 
@@ -47,3 +53,5 @@
 // window.addEventListener("scroll", () => { 
 //   handleScrollAnimation();
 // });
+
+

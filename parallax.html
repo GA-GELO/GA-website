@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="stylesheet.css">
    
 <!-- lINK TO JS -->
-    <script type="text/javascript" src="parallax.js"></script>
+    <script type="text/javascript" src="parallax.js" defer></script>
 
 <!-- AOS LINK -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -116,7 +116,7 @@
                 and a competent implementation and support team, the system modernizes the processing of government
                 transactions providing for a streamlined, efficient and transparent delivery of public service.
               </div>
-          <button type="button" id="seemore" onclick="clickHandler()">See More</button> 
+          <button type="button" id="seemore" onclick="smartgovbutton()">See More</button> 
               </div>
           <img src="img/smartgov.png" alt="" id="mysmartgov-image">
       </div>
@@ -130,7 +130,7 @@
             constituents. The system consists of a physical ID card given to each resident as well as a database system that
              maintains their relevant information.
             </div>
-            <button type="button" id="seemore" onclick="clickHandler()">See More</button> 
+            <button type="button" id="seemore" onclick="residentInfo()">See More</button> 
      </div>
    </div>
 
@@ -156,7 +156,7 @@
        needing debt management and collections. It helps monitor and follow up delinquencies, as well as individual
         customer payments.
       </div>
-      <button type="button" id="seemore" onclick="clickHandler()">See More</button> 
+      <button type="button" id="seemore" onclick="billingsystem()">See More</button>
 </div>
 </div>
 
@@ -177,7 +177,7 @@
 
 <div class="box" id="key-features-title">
   <img src="img/fast,reliable & efficient.png" alt="" id="fast-reliable">
- <article > FAST, RELIABLE & EFFICIENT </article>
+ <article class="fast" > FAST, RELIABLE & EFFICIENT </article>
 </div>
 
 <div class="box" id="key-features-title">
@@ -209,26 +209,24 @@
 
 <footer>
 
-  
-
   <div class="flex-container" id="footer-container">
     <!-- <div class="footer" style="background-color: aqua;"> -->
      <div class="row w-100">
        <div class="col-4" style="padding-left: 50px;">  <img src="img/ga-logo-white.png" alt="" id="footer-image"> 
       </div>
       <div class="col-4">
-      <ul>
-        <h4>Quick Links</h4>
-        <li> <a href="#"> Home </a> </li>
+      <ul footer>
+        <h4> Quick Links </h4>
+        <li class="home"> <a href="#"> Home </a> </li>
         <li class="events"> <a href="#">  Events </a> </li>
       </ul>
       <ul>
-        <li class> <a href="#"> About Us </a> </li>
+        <li class = "about"> <a href="#"> About Us </a> </li>
         <li class="careers"> <a href="#"> Careers </a> </li>
         </ul>
 
         <ul>
-            <li> <a href="#"> Services </a> </li>
+            <li class="services"> <a href="#"> Services </a> </li>
             <li class="contact-us"> <a href="#"> Contact Us </a> </li>
          </ul>
       </div>
@@ -237,17 +235,17 @@
       <ul>
       <h4>Contact Us</h4>     
         <img src="img/location.png" alt="" class="location">
-        <li> Unit 16A Petron Megaplaza Bldg.,
+        <li class="address"> Unit 16A Petron Megaplaza Bldg.,
           Sen. Gil J.Puyat Avenue
           Bel-air, Makati City </li>
       </ul>      
         <ul>
           <img src="img/phone.png" alt="" class="phone">
-          <li> +63 9176241139 </li>
+          <li class="phone-no"> +63 9176241139 </li>
         </ul>
         <ul>
           <img src="img/message.png" alt="" class="message">
-          <li> info@greenappletech.ph </li>
+          <li class="email"> info@greenappletech.ph </li>
         </ul>
   </div>
         
@@ -277,7 +275,8 @@
 
 <!-- <script>
 
-  // function clickHandler() {
-  //     alert ("success")
-  // }
-  // </script> -->
+ function clickHandler (){
+    window.open ('http://127.0.0.1:5500/mysmartgov.html');
+    alert('test');
+}
+  </script> -->

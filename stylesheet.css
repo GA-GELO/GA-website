@@ -404,6 +404,36 @@ nav {
     line-height: normal;
 }
 
+.fast {
+    margin-right: 15px; 
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: #72C675;
+    font-family: 'Poppins',sans-serif;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    font-weight: bold;
+    line-height: normal;
+}
+/* #fast-reliable {
+    margin-right: 210px; 
+    margin-left: 195px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: #72C675;
+    font-family: 'Poppins',sans-serif;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    font-weight: bold;
+    line-height: normal;
+} */
+
+
 .scalable {
     margin-right: 210px; 
     margin-left: 195px;
@@ -491,8 +521,400 @@ nav {
     width: 250px;
 }
 
-/* footer */
+/* MYSMARTGOV */
 
+#smartgov-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mySmartGov-img {
+    margin-top: 120px;
+    width: 400px;
+    height: 80px;
+}
+
+.title-smartgov {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #0E723E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#title-product-features {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #0E723E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+article {
+    color: #6F6F6F;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.938rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#product-components {
+    display: flex;
+    color: #0E723E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card1 {
+    /* display: flex;
+    justify-content: space-between;
+    gap: 10px; */
+    margin-top: 50px;
+    width: 350px;
+    height: 450px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;   
+    background-color: transparent;
+    box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.25);
+    /* border: 1px solid #D9D9D9; */
+}
+
+.smartserve-image {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+.smartadmin-image {
+    margin-top: 40px;
+    width: 150px;
+    height: 120px;
+}
+
+.smartlead-image {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.title-smartserve {
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, #87AF00 50%, #10713D 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.30rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* span {
+   color: linear-gradient(left, #e41654 60%, #2f12b1 40%);
+   
+} */
+
+.title-smartfinance {
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, #87AF00 46%, #10713D 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.30rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-smartadmin {
+    margin-top: 27px;
+    background: -webkit-linear-gradient(left, #87AF00 48%, #10713D 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.30rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-smartlead {
+    margin-top: 15px;
+    background: -webkit-linear-gradient(left, #87AF00 48%, #10713D 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.30rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.smartfinance-description {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #6F6F6F;
+    text-align: justify;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.smartserve-description {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #6F6F6F;
+    text-align: justify;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.smartlead-description {
+    margin-top: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #6F6F6F;
+    text-align: justify;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.smartfinance-image {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+/* RESIDENT INFORMATION SYSTEM */
+
+#aboutresident {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-aboutresident, .title-residentid, .title-implementation {
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #0E723E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-residentid, .title-benefits{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #0E723E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.residentid-image {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.benefits-top-title {
+    color: #2D2D2D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card2 {
+    margin-top: 50px;
+    padding: 30px;
+    width: 650px;
+    height: 450px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;   
+    background-color: transparent;
+    box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.description-lgu, .description-resident {
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #6F6F6F;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title-lgu, .title-resident {
+    color: #2D2D2D;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.resident-image{
+    margin-top: 30px;
+    width: 170px;
+    height: 150px;
+}
+
+.lgu-image {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.description-lgu {
+    margin-top: 50px;
+    color: #6F6F6F;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.implementation {
+    height: 250px;
+    width: auto;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+/* Resource for Election Activity and
+Campaign Handling (REACH) */
+
+.title-reach {
+    margin-top: 100px;
+    color: #0E723E;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card3 {
+    margin-top: 50px;
+    padding: 30px;
+    width: 700px;
+    height: 850px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;   
+    background-color: transparent;
+    box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.description-reach {
+    text-align: center;
+    margin-top: 30px;
+    color: #6F6F6F;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title-reach2 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    color: #0E723E;
+    color: #0E723E;
+    text-align: left;
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.reach-image{
+    width: 550px;
+    height: auto;
+}
+
+.key-features-image{
+    width: 500px;
+    height: auto;
+}
+
+
+/* .res-id-img{
+    height: 500px;
+    width: 500px;
+}
+
+.res-id {
+    width: 300px;
+    overflow: hidden;
+    width: 100%; 
+    transition: transform 0.3s ease; 
+
+}
+
+.res-id:hover {
+    transform: scale(1.2); 
+  } */
+  
+/* footer */
 
 #footer-image {
     margin-top: 50px;
@@ -501,9 +923,15 @@ nav {
 }
 
  
-li {
-
+.home,.events,.about,.careers,.services,.contact-us,.address,.phone-no,.email {
     display: inline;
+    color: #ffffff;
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 } 
 
 #footer-container  {
@@ -523,10 +951,11 @@ li {
 #footer-container a {
     text-decoration: none;
 }
-
+/* 
 ul {
     list-style: none;
-}
+} */
+
 
 h4 {
     color: #fefefe;
@@ -537,14 +966,15 @@ h4 {
     line-height: normal;
 }
 
-li {
+/* li {
     font-family: 'Poppins',sans-serif;
     color: #ffffff;
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
+} */
+
 
 .location, .phone {
     height: 20px;
@@ -557,7 +987,7 @@ li {
 }
 
 .contact-us {
-    padding-left: 78px;
+    padding-left: 80px;
     font-family: 'Poppins',sans-serif;
     color: #ffffff;
     font-size: 0.9375rem;
@@ -593,5 +1023,9 @@ a {
 a:hover {
     font-weight: bold;
     color: #025227;
+}
+
+.features {
+    color: #2D2D2D;
 }
 
