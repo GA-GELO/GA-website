@@ -12,46 +12,31 @@ function residentInfo() {
 }
 
 
+// // script.js
+// window.addEventListener("load", function () {
+//     // When the page is fully loaded, hide the loader
+//     const spinner = document.querySelector("#spinner");
+//     const content = document.querySelector(".content");
 
-// const scrollElements = document.querySelectorAll(".box");
+//     spinner.style.display = "block"; // Hide the loader
+//     content.style.display = "none"; // Show the main content
+    
 
-// const elementInView = (el, dividend = 1) => {
-//   const elementTop = el.getBoundingClientRect().top;
-
-//   return (
-//     elementTop <=
-//     (window.innerHeight || document.documentElement.clientHeight) / dividend
-//   );
-// };
-
-// const elementOutofView = (el) => {
-//   const elementTop = el.getBoundingClientRect().top;
-
-//   return (
-//     elementTop > (window.innerHeight || document.documentElement.clientHeight)
-//   );
-// };
-
-// const displayScrollElement = (element) => {
-//   element.classList.add("scrolled");
-// };
-
-// const hideScrollElement = (element) => {
-//   element.classList.remove("scrolled");
-// };
-
-// const handleScrollAnimation = () => {
-//   scrollElements.forEach((el) => {
-//     if (elementInView(el, 1.25)) {
-//       displayScrollElement(el);
-//     } else if (elementOutofView(el)) {
-//       hideScrollElement(el)
-//     }
-//   })
-// }
-
-// window.addEventListener("scroll", () => { 
-//   handleScrollAnimation();
 // });
 
+    document.addEventListener("DOMContentLoaded", function() {
+         // This code will run when the DOM is fully loaded
+
+    // Assuming you have spinner and content elements in your HTML
+    const spinner = document.querySelector("#spinner");
+    const content = document.querySelector(".content");
+
+    // Add a delay of, for example, 2000 milliseconds (2 seconds)
+    setTimeout(function() {
+        spinner.style.display = "none"; // Hide the loader
+       
+        console.log("DOM content loaded");
+    }, 1000); // Adjust the delay duration as needed (in milliseconds)
+    content.style.display = "block"; // Show the main content
+    });
 

@@ -2,6 +2,10 @@
     scroll-behavior: smooth;
 }
 
+/* *{
+    outline: 2px solid lime;
+} */
+
 /* Navbar */
 nav { 
   
@@ -1028,4 +1032,74 @@ a:hover {
 .features {
     color: #2D2D2D;
 }
+iframe {
+    width: 100%;
+    height: 300px;
+}
 
+/* Loader */
+
+#spinner {
+    position: absolute;
+    top: 50%;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    border: 4.5px solid #0000;
+    border-radius: 50%;
+    border-color: #dbdcef #0000;
+    animation: spinner-e04l1k 1s infinite linear;
+  }
+  
+  #spinner::before,
+  #spinner::after {
+    content: "";
+    grid-area: 1/1;
+    margin: 2.2px;
+    border: inherit;
+    border-radius: 50%;
+  }
+  
+  #spinner::before {
+    border-color: #474bff #0000;
+    animation: inherit;
+    animation-duration: 0.5s;
+    animation-direction: reverse;
+  }
+  
+  #spinner::after {
+    margin: 8.9px;
+  }
+  
+  @keyframes spinner-e04l1k {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+
+
+/* Buttons */
+/* #button {
+    font-size: 16px;
+    padding: 1em 3.3em;
+    transform: perspective(200px) rotateX(15deg);
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(70,135,252,1) 100%);
+    box-shadow: rgba(63,94,251,0.2) 0px 40px 29px 0px;
+    will-change: transform;
+    transition: all 0.3s;
+    border-bottom: 2px solid rgba(70,135,252,1);
+  }
+  
+  #button:hover {
+    transform: perspective(180px) rotateX(30deg) translateY(2px);
+  }
+  
+  #button:active {
+    transform: perspective(170px) rotateX(36deg) translateY(5px);
+  }
+
+  .slide-rotate-hor-b-fwd{-webkit-animation:slide-rotate-hor-b-fwd .5s cubic-bezier(.455,.03,.515,.955) both;animation:slide-rotate-hor-b-fwd .5s cubic-bezier(.455,.03,.515,.955) both} */
